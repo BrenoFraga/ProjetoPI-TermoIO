@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(./img/pexels-miriam-espacio-110854.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.header {
+    background-color: rgb(25, 16, 28);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 5px;
+}
+
+.header ul {
+    list-style: none;
+    float: right;
+    padding: 20px;
+    color: white;
+}
+
+.header li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 18px;
+}
+
+.header p {
+    padding: 20px;
+    float: left;
+    font-size: 1cm;
+    color: white;
+}
+
+.box-msg {
+    text-align: center;
+    width: 100%;
+    margin-top: 200px;
+    font-size: 1cm;
+    color: white;
+}
+
+.box-msg2 {
+    text-align: center;
+    width: 100%;
+    font-size: 0.5cm;
+    margin-bottom: 200px;
+    color: white;
+}
+
+.box-item img {
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box-item {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.container2 {
+    color: white;
+}
+
+.grid {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(25, 16, 28);
+}
+
+.grid h5 {
+    font-size: 1cm;
+}
+
+.grid h6 {
+    font-size: 0.5cm;
+}
+
+.grid input {
+    border-style: none;
+    width: 5cm;
+    height: 30px;
+}
+
+.grid button {
+    border-style: none;
+    height: 30px;
+    width: 80px;
+}
